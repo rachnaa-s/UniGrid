@@ -1,4 +1,4 @@
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 import heroImg from "../assets/banner.png";
  import { BookOpen, FileText, Search, Users, Globe } from "lucide-react";
 
@@ -25,7 +25,6 @@ export default function Home() {
             </a>
 
           </div>
-          <section id="quick-access" className="quick-access"></section>
         </div>
       </section>
 

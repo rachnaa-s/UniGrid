@@ -9,11 +9,10 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <a href="#features">Events</a>
         <a href="#features">Complaints</a>
-        <a href="#features">Academics</a>
-        <a href="#features">Community</a>
-        <a href="#features">Alumni</a>
+        <Link to="/academics">Academics</Link>
+        <Link to="/community">Community</Link>
         <a href="#features">Sports</a>
-        <a href="#features">Lost & Found</a>
+        
       </div>
 
       <button className="login-btn">Login</button>
